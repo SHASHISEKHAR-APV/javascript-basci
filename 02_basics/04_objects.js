@@ -49,3 +49,32 @@ console.log(Object.entries(tinderUser))
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn'))
 
+
+const course = {
+    coursename:"JAVASCRIPT",
+    price:"999",
+    courseInstructor:"Hitesh"
+}
+// course.courseInstructor()
+
+const {courseInstructor} = course
+console.log(courseInstructor)
+
+
+// const navbar= ({company}) => {
+
+// }
+// navbar(company = "hitesh")
+
+
+// {
+//     "name": "shashi",
+//     "coursename": "js in Hindi", // api: it is in jason
+//    " price": "free"
+// }
+
+// [
+//     {},
+//     {},  // can also be in this : api
+//     {}
+// ]
